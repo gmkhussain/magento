@@ -15,8 +15,8 @@ vendor\magento\module-theme\view\frontend\templates\html
 vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 
-
-
+###Magento2 theme header - Welcome message
+/public_html/vendor/magento/module-customer/view/frontend/templates/account/customer.phtml
 
 
 
