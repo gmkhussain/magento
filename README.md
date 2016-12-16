@@ -9,6 +9,10 @@ vendor\magento\module-theme\view\frontend\templates\html
 1. var\cache
 2. var\page_cache
 
+###Template Path Hints in Magento2
+Store > Configuration > Advanced > Developer > Debug > Enabled Template Path Hints for Storefront > Yes
+
+
 
 
 ###Head file location for CSS and JS files
@@ -28,3 +32,4 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 ####HTML
 /public_html/dev.essentialbeards.com/app/design/frontend/xcelance/bearded/template/page
+
