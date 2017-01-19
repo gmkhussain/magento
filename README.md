@@ -23,6 +23,16 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 /public_html/vendor/magento/module-customer/view/frontend/templates/account/customer.phtml
 
 
+###Magento2 Page link Items
+/public_html/vendor/magento/framework/View/Element/Html
+
+
+
+
+
+
+
+
 
 #Magento 1.x
 ###Frontend templates location
