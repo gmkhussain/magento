@@ -51,6 +51,9 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 /public_html/dev.essentialbeards.com/app/design/frontend/xcelance/bearded/template/page
 
 
-
 ###Payment form Html location
 /public_html/dev.essentialbeards.com/app/design/frontend/base/default/template/stripe/form
+
+
+###Current Theme Skin Url
+<?php $this->getSkinUrl('images/my-image.jpg'); ?>
