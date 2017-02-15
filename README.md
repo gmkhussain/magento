@@ -40,7 +40,6 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 
 
-
 #Magento 1.x
 ###Frontend templates location
 
@@ -57,3 +56,7 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 ###Current Theme Skin Url
 <?php $this->getSkinUrl('images/my-image.jpg'); ?>
+
+
+###Email template location
+app/locale/[language]/email/templates/account_new.html
