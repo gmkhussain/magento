@@ -60,3 +60,7 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 ###Email template location
 app/locale/[language]/email/templates/account_new.html
+
+
+###Order Email template location
+/app/design/frontend/xcelance/bearded/template/email/order
