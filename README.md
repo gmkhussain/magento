@@ -39,6 +39,8 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 /public_html/vendor/magento/module-contact/view/frontend/templates
 
 
+###Magento2 mini search form (on header)
+/public_html/vendor/magento/module-search/view/frontend/templates/form.mini.phtml
 
 
 #Magento 1.x
