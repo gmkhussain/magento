@@ -35,7 +35,8 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 
 
-
+###Magento2 default contact form location
+/public_html/vendor/magento/module-contact/view/frontend/templates
 
 
 
