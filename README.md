@@ -1,15 +1,18 @@
-#Magento 2
+# Magento 2
+
+###How to change default homepage Magento2
+Change home page under Stores > Configuration > General > Web > Default Pages > CMS Home Page
 
 ###Frontend templates location
 vendor\magento\module-theme\view\frontend\templates\html
 
 
 
-###Cache location
+### Cache location
 1. var\cache
 2. var\page_cache
 
-###Template Path Hints in Magento2
+###  Template Path Hints in Magento2
 Store > Configuration > Advanced > Developer > Debug > Enabled Template Path Hints for Storefront > Yes
 
 
@@ -19,7 +22,7 @@ Store > Configuration > Advanced > Developer > Debug > Enabled Template Path Hin
 vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 
-###Magento2 theme header - Welcome message
+### Magento2 theme header - Welcome message
 /public_html/vendor/magento/module-customer/view/frontend/templates/account/customer.phtml
 
 
@@ -28,42 +31,42 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 
 
 
-###Magento2 contact page * messages / content
+### Magento2 contact page * messages / content
 \vendor\magento\module-contact\view\frontend\templates\form.phtml
 \vendor\magento\module-contact\i18n\en_US.csv
 
 
 
 
-###Magento2 default contact form location
+### Magento2 default contact form location
 /public_html/vendor/magento/module-contact/view/frontend/templates
 
 
-###Magento2 mini search form (on header)
+### Magento2 mini search form (on header)
 /public_html/vendor/magento/module-search/view/frontend/templates/form.mini.phtml
 
 
-#Magento 1.x
-###Frontend templates location
+# Magento 1.x
+### Frontend templates location
 
-####CSS
+#### CSS
 /public_html/dev.essentialbeards.com/skin/frontend/xcelance/bearded
 
-####HTML
+#### HTML
 /public_html/dev.essentialbeards.com/app/design/frontend/xcelance/bearded/template/page
 
 
-###Payment form Html location
+### Payment form Html location
 /public_html/dev.essentialbeards.com/app/design/frontend/base/default/template/stripe/form
 
 
-###Current Theme Skin Url
+### Current Theme Skin Url
 <?php $this->getSkinUrl('images/my-image.jpg'); ?>
 
 
-###Email template location
+### Email template location
 app/locale/[language]/email/templates/account_new.html
 
 
-###Order Email template location
+### Order Email template location
 /app/design/frontend/xcelance/bearded/template/email/order
