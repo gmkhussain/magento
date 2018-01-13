@@ -1,14 +1,38 @@
 # Magento 2
 
-###How to change default homepage Magento2
+### ReferenceError: jQuery is not defined in Magento2
+Magento2 use RequireJS concept (lazy load) so load jquery first then write your jQuery code.
+```javascript
+require(['jquery'],function($){
+
+    $(document).ready(function(){
+
+       alert('ok');
+
+    });
+
+});
+```
+
+
+
+### How to change default homepage Magento2
 ```
 Change home page under Stores > Configuration > General > Web > Default Pages > CMS Home Page
 ```
 
-###Frontend templates location
+### Frontend templates location
 ```
 vendor\magento\module-theme\view\frontend\templates\html
 ```
+
+
+
+### Product box file location
+```
+/public_html/vendor/magento/module-catalog/view/frontend/templates/product
+```
+
 
 ### Cache location
 ```
@@ -23,7 +47,7 @@ Store > Configuration > Advanced > Developer > Debug > Enabled Template Path Hin
 
 
 
-###Head file location for CSS and JS files
+### Head file location for CSS and JS files
 ```
 vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 ```
@@ -33,7 +57,7 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 /public_html/vendor/magento/module-customer/view/frontend/templates/account/customer.phtml
 ```
 
-###Magento2 Page link Items
+### Magento2 Page link Items
 ```
 /public_html/vendor/magento/framework/View/Element/Html
 ```
@@ -58,11 +82,13 @@ vendor\magento\module-theme\view\frontend\layout\default_head_blocks.xml
 ```
 
 
-##SM Marketing Magento2
-###Template configuration location
+## SM Marketing Magento2
+### Template configuration location
 ```html
 admin_secured/admin/system_config/edit/section/market/
 ```
+
+
 
 
 
@@ -78,13 +104,16 @@ admin_secured/admin/system_config/edit/section/market/
 #### CSS
 ```
 /public_html/dev.essentialbeards.com/skin/frontend/xcelance/bearded
+					{{project root}}/skin/frontend/default/{{themeName}}/
 ```
 
 
 #### HTML
 ```
 /public_html/dev.essentialbeards.com/app/design/frontend/xcelance/bearded/template/page
+					{{project root}}/app/design/frontend/default/{{themeName}}/template/page
 ```
+
 
 ### Payment form Html location
 ```
